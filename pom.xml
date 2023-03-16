@@ -15,6 +15,15 @@
       <version>0.11</version>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub whiteforlonely Apache Maven Packages</name>  <!-- 改 OWNER -->
+      <url>https://maven.pkg.github.com/whiteforlonely/java_hccp2</url>  <!-- 改 OWNER、REPOSITORY -->
+    </repository>
+  </distributionManagement>
+
   <build>
     <plugins>
       <plugin>
